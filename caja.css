@@ -5,7 +5,7 @@ body {
 div.tarjeta {
     border: 1px solid magenta;
     border-radius: 8px;
-    display: inline-block;
+    display: block;
     background-color: rgb(8, 133, 8);
     -webkit-box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
@@ -13,10 +13,12 @@ div.tarjeta {
 }
 
 div.titulo {
-    padding: 10px 75px 10px 75px;
+    text-align: center;
+    padding: 10px;
 }
 .cuerpo > img {
-    padding-left: 30px;
+    display: block;
+    margin: auto;
 }
 
 p {
